@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    height: 400px;
+}
+
+.square {
+    background-color: #ee66e9;
+    width: 10em;
+    height: 14rem;
+}

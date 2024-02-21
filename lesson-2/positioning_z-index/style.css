@@ -1,0 +1,37 @@
+
+div div {
+    width: 180px;
+    height: 180px;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+div div:first-child {
+    background-color: darkslateblue;
+}
+
+div:nth-child(2) {
+    background-color: rgb(228, 35, 154);
+}
+
+div:nth-child(3) {
+    background-color: rgb(186, 228, 35);
+    position: fixed;    
+    bottom: 0;
+    right: 0;
+}
+
+div:nth-child(4) {
+    background-color: rgb(35, 157, 228);
+}
+
+section {
+    height: 80vh;
+    background-color: rgb(223, 223, 223);
+    margin-bottom: 5px;
+    position: relative;
+}
